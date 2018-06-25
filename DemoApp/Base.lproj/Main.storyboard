@@ -77,6 +77,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="c03-GM-njA"/>
                     <connections>
                         <outlet property="userPass" destination="UsB-ff-vE9" id="Hal-qU-OKb"/>
                         <outlet property="userText" destination="heS-3g-8Jn" id="jbL-Dk-7r1"/>
@@ -84,36 +85,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="133.5832083958021"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="UDc-9B-BC6">
-            <objects>
-                <viewController id="yCE-3t-bLU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Rmu-DM-qKG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats you are successfuly log in" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhL-qh-NsN">
-                                <rect key="frame" x="43" y="267" width="289" height="79"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="20"/>
-                                <color key="textColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="0.62529430650684936" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.77390462160110474" green="0.78596585988998413" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="XhL-qh-NsN" firstAttribute="leading" secondItem="Tcw-ky-H97" secondAttribute="leading" constant="43" id="5rE-Uf-8sU"/>
-                            <constraint firstItem="Tcw-ky-H97" firstAttribute="bottom" secondItem="XhL-qh-NsN" secondAttribute="bottom" constant="321" id="KUa-Hp-Nah"/>
-                            <constraint firstItem="Tcw-ky-H97" firstAttribute="trailing" secondItem="XhL-qh-NsN" secondAttribute="trailing" constant="43" id="SvF-1v-Hxe"/>
-                            <constraint firstItem="XhL-qh-NsN" firstAttribute="top" secondItem="Tcw-ky-H97" secondAttribute="top" constant="247" id="kbJ-4b-U67"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="Tcw-ky-H97"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HTH-75-hRm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="636" y="139.880059970015"/>
+            <point key="canvasLocation" x="260" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>
